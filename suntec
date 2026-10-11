@@ -1,0 +1,1928 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunteck Medical - CPAP, BiPAP, Oxygen Concentrator, Sleep Study Test Rental & Sales | Pune & Thane</title>
+    <meta name="description" content="Sunteck Medical - CPAP, BiPAP, Oxygen Concentrator, Sleep Study Test and Ventilator rental & sales in Pune and Thane. GSTIN 27BMGPB9547Q1ZB. Call +91 88746 18130.">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* ============================================
+           GLOBAL RESET & VARIABLES
+           ============================================ */
+        :root {
+            --primary-blue: #0b3c7c;
+            --dark-blue: #082a58;
+            --accent-red: #d32f2f;
+            --light-red: #b71c1c;
+            --bg-light: #f5f8fc;
+            --bg-white: #ffffff;
+            --text-dark: #1a1a2e;
+            --text-body: #444;
+            --text-light: #777;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 20px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 30px rgba(0,0,0,0.12);
+            --radius: 12px;
+            --radius-lg: 20px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-body);
+            background-color: var(--bg-white);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ============================================
+           HEADER / NAVBAR
+           ============================================ */
+        .navbar {
+            background: var(--bg-white);
+            padding: 16px 0;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--accent-red);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.1;
+        }
+
+        .logo-text .brand {
+            font-size: 22px;
+            font-weight: 800;
+            color: var(--accent-red);
+            letter-spacing: -0.5px;
+        }
+
+        .logo-text .sub {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--primary-blue);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 500;
+            font-size: 14px;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--accent-red);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-red);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-cta {
+            background: var(--accent-red);
+            color: #fff !important;
+            padding: 10px 24px;
+            border-radius: 50px;
+            font-weight: 600 !important;
+            transition: var(--transition);
+        }
+
+        .nav-cta:hover {
+            background: var(--light-red);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(211, 47, 47, 0.3);
+        }
+
+        .nav-cta::after {
+            display: none;
+        }
+
+        .mobile-toggle {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--text-dark);
+            cursor: pointer;
+        }
+
+        /* ============================================
+           HERO / TOP BANNER
+           ============================================ */
+        .hero {
+            background: linear-gradient(135deg, #f0f5ff 0%, #e8f0fe 100%);
+            padding: 60px 0 50px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(11,60,124,0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .hero .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--accent-red);
+            color: #fff;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            letter-spacing: 0.5px;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: 800;
+            color: var(--primary-blue);
+            line-height: 1.15;
+            margin-bottom: 18px;
+            letter-spacing: -1px;
+        }
+
+        .hero h1 span {
+            color: var(--accent-red);
+        }
+
+        .hero p {
+            font-size: 17px;
+            color: var(--text-body);
+            margin-bottom: 30px;
+            max-width: 520px;
+            line-height: 1.7;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--accent-red);
+            color: #fff;
+            box-shadow: 0 4px 15px rgba(211, 47, 47, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--light-red);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(211, 47, 47, 0.4);
+        }
+
+        .btn-outline {
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+
+        .btn-outline:hover {
+            background: var(--primary-blue);
+            color: #fff;
+            transform: translateY(-3px);
+        }
+
+        .hero-image-placeholder {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #e0e9f5 0%, #d0ddef 100%);
+            border-radius: var(--radius-lg);
+            height: 380px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        .hero-image-placeholder img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center 30%;
+            z-index: 0;
+        }
+
+        .hero-image-placeholder .label {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: rgba(255,255,255,0.9);
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-light);
+            z-index: 2;
+        }
+
+        /* ============================================
+           SECTION STYLES
+           ============================================ */
+        section {
+            padding: 70px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            max-width: 700px;
+            margin: 0 auto 50px;
+        }
+
+        .section-header .tag {
+            display: inline-block;
+            background: rgba(211, 47, 47, 0.08);
+            color: var(--accent-red);
+            padding: 6px 18px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+
+        .section-header h2 {
+            font-size: 34px;
+            font-weight: 800;
+            color: var(--primary-blue);
+            margin-bottom: 14px;
+            letter-spacing: -0.5px;
+        }
+
+        .section-header p {
+            font-size: 16px;
+            color: var(--text-light);
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           WHAT IS VENTILATION / SLEEP STUDY
+           ============================================ */
+        .what-is, .sleep-study {
+            background: var(--bg-white);
+        }
+
+        .sleep-study {
+            background: var(--bg-light);
+        }
+
+        .what-is-grid {
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 50px;
+            align-items: center;
+        }
+
+        .what-is-content h3 {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 16px;
+        }
+
+        .what-is-content p {
+            font-size: 16px;
+            color: var(--text-body);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .highlight-box {
+            background: var(--bg-white);
+            border-left: 4px solid var(--accent-red);
+            padding: 20px 24px;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .highlight-box i {
+            color: var(--accent-red);
+            font-size: 24px;
+            margin-top: 4px;
+        }
+
+        .highlight-box p {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-dark);
+            margin: 0;
+        }
+
+        .what-is-visual {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #e8f0fe 0%, #d4e4f7 100%);
+            border-radius: var(--radius-lg);
+            height: 320px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        .what-is-visual img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Sleep Study Section Specific */
+        .sleep-study .what-is-grid {
+            grid-template-columns: 1fr 1.2fr;
+        }
+
+        .sleep-study .what-is-visual {
+            height: 400px;
+        }
+
+        .sleep-study-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin: 20px 0;
+        }
+
+        .sleep-study-features li {
+            position: relative;
+            padding-left: 24px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-body);
+            list-style: none;
+        }
+
+        .sleep-study-features li::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            position: absolute;
+            left: 0;
+            color: var(--accent-red);
+            font-size: 14px;
+        }
+
+        /* ============================================
+           WHY NEEDED / WHO NEEDS
+           ============================================ */
+        .why-who {
+            background: var(--bg-light);
+        }
+
+        .two-col-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .info-card {
+            background: var(--bg-white);
+            border-radius: var(--radius-lg);
+            padding: 36px 32px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .info-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .info-card .card-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(11, 60, 124, 0.08);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        .info-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 20px;
+        }
+
+        .info-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-card ul li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            font-size: 15px;
+            line-height: 1.6;
+            color: var(--text-body);
+        }
+
+        .info-card ul li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            width: 8px;
+            height: 8px;
+            background: var(--accent-red);
+            border-radius: 50%;
+        }
+
+        /* ============================================
+           KEY BENEFITS
+           ============================================ */
+        .benefits {
+            background: var(--bg-white);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        .benefit-card {
+            background: var(--bg-light);
+            border-radius: var(--radius);
+            padding: 28px 24px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+
+        .benefit-card:hover {
+            background: var(--bg-white);
+            border-color: rgba(11, 60, 124, 0.1);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .benefit-card .benefit-icon {
+            width: 52px;
+            height: 52px;
+            background: var(--primary-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 22px;
+            color: #fff;
+            margin: 0 auto 16px;
+        }
+
+        .benefit-card h4 {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 8px;
+        }
+
+        .benefit-card p {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* ============================================
+           PRODUCTS
+           ============================================ */
+        .products {
+            background: var(--bg-light);
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 28px;
+        }
+
+        .product-card {
+            background: var(--bg-white);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-6px);
+        }
+
+        .product-img {
+            height: 220px;
+            background: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            border-bottom: 1px solid #eee;
+            padding: 10px;
+            overflow: hidden;
+        }
+
+        .product-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            transition: var(--transition);
+            display: block;
+        }
+
+        .product-card:hover .product-img img {
+            transform: scale(1.05);
+        }
+
+        .product-tag {
+            position: absolute;
+            top: 14px;
+            left: 14px;
+            background: var(--accent-red);
+            color: #fff;
+            padding: 4px 14px;
+            border-radius: 50px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+            z-index: 2;
+        }
+
+        .product-body {
+            padding: 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-body h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 10px;
+        }
+
+        .product-body p {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+            flex: 1;
+            margin-bottom: 18px;
+        }
+
+        .product-body .btn-sm {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary-blue);
+            color: #fff;
+            padding: 10px 22px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+            align-self: flex-start;
+        }
+
+        .product-body .btn-sm:hover {
+            background: var(--dark-blue);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(11, 60, 124, 0.3);
+        }
+
+        /* ============================================
+           CONTACT / CTA BANNER
+           ============================================ */
+        .cta-banner {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-blue) 100%);
+            padding: 60px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+
+        .cta-banner .container {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            gap: 40px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-content h2 {
+            font-size: 32px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 12px;
+        }
+
+        .cta-content p {
+            font-size: 16px;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 24px;
+        }
+
+        .cta-contact {
+            display: flex;
+            align-items: center;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+
+        .cta-phone {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            padding: 14px 28px;
+            border-radius: 50px;
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: var(--transition);
+            text-decoration: none;
+        }
+
+        .cta-phone:hover {
+            background: rgba(255,255,255,0.2);
+            transform: translateY(-2px);
+        }
+
+        .cta-phone i {
+            font-size: 22px;
+            color: #fff;
+        }
+
+        .cta-phone .phone-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .cta-phone .phone-text .label {
+            font-size: 11px;
+            color: rgba(255,255,255,0.7);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-phone .phone-text .number {
+            font-size: 18px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .cta-name {
+            text-align: right;
+        }
+
+        .cta-name .person {
+            font-size: 20px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .cta-name .role {
+            font-size: 13px;
+            color: rgba(255,255,255,0.7);
+        }
+
+        /* ============================================
+           LOCATIONS
+           ============================================ */
+        .locations {
+            background: var(--bg-white);
+        }
+
+        .location-card {
+            background: var(--bg-light);
+            border-radius: var(--radius-lg);
+            padding: 34px 30px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border-top: 4px solid var(--accent-red);
+        }
+
+        .location-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .location-card .city {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--accent-red);
+            margin-bottom: 10px;
+        }
+
+        .location-card h3 {
+            font-size: 20px;
+            font-weight: 700;
+            color: var(--primary-blue);
+            margin-bottom: 14px;
+        }
+
+        .location-card address {
+            font-style: normal;
+            font-size: 15px;
+            line-height: 1.85;
+            color: var(--text-body);
+        }
+
+        .location-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 22px;
+        }
+
+        .location-actions a {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .location-actions .map-link {
+            background: var(--primary-blue);
+            color: #fff;
+        }
+
+        .location-actions .map-link:hover {
+            background: var(--dark-blue);
+            transform: translateY(-2px);
+        }
+
+        .location-actions .call-link {
+            background: transparent;
+            color: var(--primary-blue);
+            border: 2px solid var(--primary-blue);
+        }
+
+        .location-actions .call-link:hover {
+            background: var(--primary-blue);
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        .gst-box {
+            margin-top: 40px;
+            background: var(--bg-light);
+            border-left: 4px solid var(--primary-blue);
+            border-radius: 0 var(--radius) var(--radius) 0;
+            padding: 26px 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+            gap: 20px;
+        }
+
+        .gst-item .k {
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            color: var(--text-light);
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .gst-item .v {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-dark);
+            word-break: break-word;
+        }
+
+        /* ============================================
+           FOOTER
+           ============================================ */
+        .footer {
+            background: var(--dark-blue);
+            color: rgba(255,255,255,0.7);
+            padding: 50px 0 0;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr 1fr 1fr 1.3fr;
+            gap: 40px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid rgba(255,255,255,0.08);
+        }
+
+        .footer-brand .logo-text .brand {
+            color: #fff;
+        }
+
+        .footer-brand .logo-text .sub {
+            color: rgba(255,255,255,0.5);
+        }
+
+        .footer-brand p {
+            font-size: 14px;
+            line-height: 1.7;
+            margin-top: 16px;
+            max-width: 300px;
+        }
+
+        .footer h4 {
+            font-size: 15px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer ul li {
+            margin-bottom: 12px;
+        }
+
+        .footer ul li a,
+        .footer ul li span.addr {
+            color: rgba(255,255,255,0.6);
+            text-decoration: none;
+            font-size: 14px;
+            transition: var(--transition);
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            line-height: 1.6;
+        }
+
+        .footer ul li a:hover {
+            color: #fff;
+        }
+
+        .footer ul li a i,
+        .footer ul li span.addr i {
+            font-size: 14px;
+            width: 18px;
+            margin-top: 4px;
+            flex-shrink: 0;
+        }
+
+        .footer-bottom {
+            padding: 24px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 13px;
+        }
+
+        .footer-bottom .tags {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .footer-bottom .tags span {
+            color: rgba(255,255,255,0.4);
+        }
+
+        .footer-bottom .legal {
+            color: rgba(255,255,255,0.55);
+            font-size: 12.5px;
+            line-height: 1.7;
+        }
+
+        /* ============================================
+           RESPONSIVE
+           ============================================ */
+        @media (max-width: 992px) {
+            .hero .container { grid-template-columns: 1fr; gap: 40px; }
+            .hero h1 { font-size: 34px; }
+            .hero-image-placeholder { height: 280px; }
+            .what-is-grid, .sleep-study .what-is-grid { grid-template-columns: 1fr; }
+            .what-is-visual, .sleep-study .what-is-visual { height: 280px; }
+            .sleep-study .what-is-grid > div:first-child { order: 2; }
+            .sleep-study .what-is-grid > div:last-child { order: 1; }
+            .two-col-grid { grid-template-columns: 1fr; }
+            .cta-banner .container { grid-template-columns: 1fr; text-align: center; }
+            .cta-contact { justify-content: center; }
+            .cta-name { text-align: center; }
+            .footer-grid { grid-template-columns: 1fr 1fr; }
+        }
+
+        @media (max-width: 768px) {
+            .navbar .container { position: relative; }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--bg-white);
+                flex-direction: column;
+                padding: 24px;
+                gap: 16px;
+                box-shadow: var(--shadow-md);
+                border-radius: 0 0 var(--radius) var(--radius);
+            }
+
+            .nav-links.active { display: flex; }
+            .mobile-toggle { display: block; }
+            .hero h1 { font-size: 28px; }
+            .hero p { font-size: 15px; }
+            .section-header h2 { font-size: 26px; }
+            .products-grid { grid-template-columns: 1fr; }
+            .benefits-grid { grid-template-columns: 1fr 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 30px; }
+            .footer-bottom { flex-direction: column; text-align: center; }
+            .cta-content h2 { font-size: 24px; }
+            .cta-phone .phone-text .number { font-size: 16px; }
+        }
+
+        @media (max-width: 480px) {
+            .container { padding: 0 16px; }
+            .hero { padding: 40px 0 30px; }
+            .hero h1 { font-size: 24px; }
+            .hero-buttons { flex-direction: column; }
+            .hero-buttons .btn { width: 100%; justify-content: center; }
+            section { padding: 50px 0; }
+            .section-header h2 { font-size: 22px; }
+            .benefits-grid { grid-template-columns: 1fr; }
+            .info-card { padding: 28px 22px; }
+            .cta-phone { width: 100%; justify-content: center; }
+        }
+
+        /* ============================================
+           ANIMATIONS
+           ============================================ */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* ============================================
+           ENQUIRY FORM, FAQ, FLOATING BUTTONS
+           ============================================ */
+        .enquiry-faq { padding: 80px 0; background: var(--bg-light); }
+        .enquiry-faq .container { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start; }
+        .panel { background: var(--bg-white); border-radius: var(--radius-lg); box-shadow: var(--shadow-md); padding: 32px; }
+        .panel h2 { color: var(--primary-blue); font-size: 26px; margin-bottom: 8px; }
+        .panel > p { color: var(--text-light); margin-bottom: 20px; font-size: 15px; }
+        .enq-form label { display: block; font-size: 13px; font-weight: 600; color: var(--text-dark); margin: 14px 0 6px; }
+        .enq-form input, .enq-form select, .enq-form textarea {
+            width: 100%; padding: 12px 14px; border: 1.5px solid #d9e2ef; border-radius: 10px;
+            font: inherit; color: var(--text-dark); background: #fff; transition: var(--transition);
+        }
+        .enq-form input:focus, .enq-form select:focus, .enq-form textarea:focus { outline: none; border-color: var(--primary-blue); box-shadow: 0 0 0 3px rgba(11,60,124,.12); }
+        .enq-form textarea { min-height: 90px; resize: vertical; }
+        .enq-form .err { color: var(--accent-red); font-size: 12px; margin-top: 4px; display: none; }
+        .enq-form .invalid + .err { display: block; }
+        .enq-form .invalid { border-color: var(--accent-red); }
+        .enq-submit {
+            margin-top: 20px; width: 100%; padding: 14px; border: 0; border-radius: 50px; cursor: pointer;
+            background: #25d366; color: #fff; font: inherit; font-weight: 700; font-size: 16px; transition: var(--transition);
+        }
+        .enq-submit:hover { background: #1ebe5a; transform: translateY(-2px); box-shadow: var(--shadow-md); }
+        .faq-item { border-bottom: 1px solid #e6edf6; }
+        .faq-item:last-child { border-bottom: 0; }
+        .faq-item summary { cursor: pointer; list-style: none; padding: 16px 28px 16px 0; font-weight: 600; color: var(--text-dark); position: relative; }
+        .faq-item summary::-webkit-details-marker { display: none; }
+        .faq-item summary::after { content: '+'; position: absolute; right: 4px; top: 12px; font-size: 22px; color: var(--accent-red); transition: var(--transition); }
+        .faq-item[open] summary::after { content: '\2212'; }
+        .faq-item p { padding: 0 0 16px; font-size: 15px; }
+        .float-actions { position: fixed; right: 18px; bottom: 18px; display: flex; flex-direction: column; gap: 12px; z-index: 1100; }
+        .float-actions a {
+            width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: #fff; font-size: 24px; box-shadow: var(--shadow-lg); transition: var(--transition);
+        }
+        .float-actions a:hover { transform: scale(1.1); }
+        .float-actions .fa-call { background: var(--primary-blue); }
+        .float-actions .fa-wa { background: #25d366; }
+        @media (max-width: 860px) { .enquiry-faq .container { grid-template-columns: 1fr; } .panel { padding: 24px; } }
+    </style>
+</head>
+<body>
+
+    <!-- ============================================
+         NAVBAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-area">
+                <div class="logo-icon">
+                    <i class="fas fa-lungs"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="brand">SUNTECK MEDICAL</span>
+                    <span class="sub">Respiratory Care</span>
+                </div>
+            </div>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#sleep-study">Sleep Study</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-heartbeat"></i>
+                    Better Breathing for a Healthier Life
+                </div>
+                <h1>Advanced <span>Respiratory Care</span> & Sleep Study at Your Doorstep</h1>
+                <p>
+                    Sunteck Medical provides CPAP, BiPAP, Oxygen Concentrator, Sleep Study Test
+                    and Ventilator rental and sales services in Pune, Thane and across India.
+                    Our mission is to make quality respiratory equipment and diagnostics accessible
+                    and affordable for every patient.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i>
+                        Book a Rental
+                    </a>
+                    <a href="#products" class="btn btn-outline">
+                        <i class="fas fa-box-open"></i>
+                        View Products
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-placeholder">
+                <img src="images/hero.jpeg" alt="Patient receiving advanced ventilation care">
+                <span class="label">Advanced Ventilation for Better Care</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHAT IS VENTILATION
+         ============================================ -->
+    <section class="what-is" id="about">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="tag">Understanding Respiratory Care</span>
+                <h2>What is Ventilation?</h2>
+                <p>
+                    Ventilation is a life-support therapy that helps people breathe when they 
+                    cannot do so adequately on their own.
+                </p>
+            </div>
+
+            <div class="what-is-grid">
+                <div class="what-is-content fade-in">
+                    <h3>How It Works</h3>
+                    <p>
+                        It delivers a controlled mixture of oxygen and air into the lungs and 
+                        removes carbon dioxide from the body. This therapy is essential for 
+                        patients with chronic respiratory conditions, those recovering from 
+                        surgery, or individuals requiring critical care support.
+                    </p>
+                    <div class="highlight-box">
+                        <i class="fas fa-lungs"></i>
+                        <p>
+                            It gives the lungs a rest, supports oxygen levels, and helps the 
+                            body recover.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="what-is-visual fade-in">
+                    <img src="images/lungs.jpg" alt="Lungs">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         SLEEP STUDY TEST
+         ============================================ -->
+    <section class="sleep-study" id="sleep-study">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="tag">Diagnostics</span>
+                <h2>Sleep Study Test (Polysomnography)</h2>
+                <p>
+                    A comprehensive sleep study to diagnose sleep disorders like Obstructive 
+                    Sleep Apnea (OSA), guiding effective treatment.
+                </p>
+            </div>
+
+            <div class="what-is-grid">
+                <div class="what-is-visual fade-in">
+                    <img src="images/sleep-study.jpg" alt="Patient undergoing a sleep study test with sensors and nasal cannula">
+                </div>
+
+                <div class="what-is-content fade-in">
+                    <h3>What is a Sleep Study?</h3>
+                    <p>
+                        A sleep study, or Polysomnography, is a painless test that records your 
+                        brain waves, oxygen level in your blood, heart rate, breathing, and eye 
+                        and leg movements during sleep. It is the gold standard for diagnosing 
+                        sleep apnea and other sleep-related breathing disorders.
+                    </p>
+                    
+                    <ul class="sleep-study-features">
+                        <li>Home Sleep Apnea Testing (HSAT)</li>
+                        <li>Comprehensive Lab Sleep Study</li>
+                        <li>Diagnosis of Snoring & Sleep Apnea</li>
+                        <li>CPAP/BiPAP Titration</li>
+                        <li>Sales & Service of Sleep Study Devices</li>
+                        <li>Expert Data Analysis & Reporting</li>
+                    </ul>
+
+                    <div class="highlight-box">
+                        <i class="fas fa-clipboard-check"></i>
+                        <p>
+                            <strong>Why it's needed:</strong> Untreated sleep apnea can lead to high blood pressure, heart disease, diabetes, and stroke. A sleep study provides the data needed to prescribe the correct therapy (like CPAP or BiPAP).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         WHY NEEDED / WHO NEEDS
+         ============================================ -->
+    <section class="why-who" id="services">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="tag">Who We Help</span>
+                <h2>Why is it Needed?</h2>
+                <p>
+                    Respiratory support is crucial for a wide range of medical conditions and 
+                    patient groups.
+                </p>
+            </div>
+
+            <div class="two-col-grid">
+                <div class="info-card fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-gear"></i>
+                    </div>
+                    <h3>Why is it Needed?</h3>
+                    <ul>
+                        <li>To treat severe breathing difficulties</li>
+                        <li>To support patients with lung diseases</li>
+                        <li>To assist during and after surgery</li>
+                        <li>To manage critical conditions like pneumonia, ARDS, or trauma</li>
+                        <li>To provide long-term respiratory support in chronic conditions</li>
+                    </ul>
+                </div>
+
+                <div class="info-card fade-in">
+                    <div class="card-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Who Needs It?</h3>
+                    <ul>
+                        <li>Patients with chronic lung diseases (COPD, asthma, etc.)</li>
+                        <li>Newborns and children with breathing problems</li>
+                        <li>Patients in critical care (ICU)</li>
+                        <li>Those recovering from surgery or serious illness</li>
+                        <li>People with neuromuscular conditions (e.g., ALS)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         KEY BENEFITS
+         ============================================ -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="tag">Why Choose Us</span>
+                <h2>Key Benefits</h2>
+                <p>
+                    Our respiratory solutions and diagnostic services are designed to improve 
+                    patient outcomes and quality of life.
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card fade-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h4>Improves Oxygen Levels</h4>
+                    <p>Maintains optimal blood oxygen saturation for better organ function.</p>
+                </div>
+
+                <div class="benefit-card fade-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-feather"></i>
+                    </div>
+                    <h4>Reduces Work of Breathing</h4>
+                    <p>Eases the effort required to breathe, reducing patient fatigue.</p>
+                </div>
+
+                <div class="benefit-card fade-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shield-halved"></i>
+                    </div>
+                    <h4>Prevents Respiratory Failure</h4>
+                    <p>Provides critical support to prevent further deterioration.</p>
+                </div>
+
+                <div class="benefit-card fade-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <h4>Supports Faster Recovery</h4>
+                    <p>Aids in quicker healing and return to normal activities.</p>
+                </div>
+
+                <div class="benefit-card fade-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>Enhances Quality of Life</h4>
+                    <p>Enables patients to live more comfortably and independently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         PRODUCTS
+         ============================================ -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="tag">Our Offerings</span>
+                <h2>Respiratory Equipment & Diagnostics</h2>
+                <p>
+                    We offer a range of advanced respiratory devices and sleep diagnostic 
+                    solutions for all age groups and clinical needs.
+                </p>
+            </div>
+
+            <div class="products-grid">
+                <!-- CPAP -->
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <span class="product-tag">Rental & Sale</span>
+                        <img src="images/cpap.jpg" alt="CPAP Machine">
+                    </div>
+                    <div class="product-body">
+                        <h3>CPAP Machines</h3>
+                        <p>
+                            Continuous Positive Airway Pressure devices for the effective 
+                            treatment of obstructive sleep apnea and mild respiratory support.
+                        </p>
+                        <a href="#contact" class="btn-sm">
+                            <i class="fas fa-phone"></i> Enquire Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- BiPAP -->
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <span class="product-tag">Rental & Sale</span>
+                        <img src="images/bipap.jpg" alt="BiPAP Machine">
+                    </div>
+                    <div class="product-body">
+                        <h3>BiPAP Machines</h3>
+                        <p>
+                            Bilevel Positive Airway Pressure devices providing two pressure 
+                            levels for patients with complex sleep apnea and respiratory insufficiency.
+                        </p>
+                        <a href="#contact" class="btn-sm">
+                            <i class="fas fa-phone"></i> Enquire Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Sleep Study -->
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <span class="product-tag">Sales & Service</span>
+                        <img src="images/sleep-study.jpg" alt="Sleep Study Device">
+                    </div>
+                    <div class="product-body">
+                        <h3>Sleep Study & HSAT Devices</h3>
+                        <p>
+                            Home Sleep Apnea Testing (HSAT) devices and comprehensive polysomnography 
+                            equipment for clinics and home use. Sales and service available.
+                        </p>
+                        <a href="#contact" class="btn-sm">
+                            <i class="fas fa-phone"></i> Enquire Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Oxygen Concentrator -->
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <span class="product-tag">Rental & Sale</span>
+                        <img src="images/oxygen.jpg" alt="Oxygen Concentrator">
+                    </div>
+                    <div class="product-body">
+                        <h3>Oxygen Concentrators</h3>
+                        <p>
+                            Portable and stationary oxygen concentrators delivering high-purity 
+                            oxygen for home and clinical use. Available in 5L and 10L variants.
+                        </p>
+                        <a href="#contact" class="btn-sm">
+                            <i class="fas fa-phone"></i> Enquire Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Ventilators -->
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <span class="product-tag">Advanced Care</span>
+                        <img src="images/ventilator.jpg" alt="Ventilator">
+                    </div>
+                    <div class="product-body">
+                        <h3>Ventilators</h3>
+                        <p>
+                            ICU-grade ventilators and transport ventilators for critical care 
+                            and safe patient transport during emergencies.
+                        </p>
+                        <a href="#contact" class="btn-sm">
+                            <i class="fas fa-phone"></i> Enquire Now
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Accessories -->
+                <div class="product-card fade-in">
+                    <div class="product-img">
+                        <span class="product-tag">Retail</span>
+                        <img src="images/accessories.jpg" alt="Respiratory Accessories">
+                    </div>
+                    <div class="product-body">
+                        <h3>All Respiratory Products</h3>
+                        <p>
+                            Masks, tubing, filters, humidifiers, and other accessories for all 
+                            your respiratory care needs available at retail.
+                        </p>
+                        <a href="#contact" class="btn-sm">
+                            <i class="fas fa-phone"></i> Enquire Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         LOCATIONS
+         ============================================ -->
+    <section class="locations" id="locations">
+        <div class="container">
+            <div class="section-header fade-in">
+                <span class="tag">Visit Us</span>
+                <h2>Our Locations</h2>
+                <p>
+                    Sunteck Medical serves patients from our two branches in Maharashtra —
+                    Dhanori (Pune) and Thane West. Doorstep delivery and installation available.
+                </p>
+            </div>
+
+            <div class="two-col-grid">
+                <!-- Pune -->
+                <div class="location-card fade-in">
+                    <span class="city"><i class="fas fa-location-dot"></i> Pune Branch</span>
+                    <h3>Sunteck Medical — Dhanori, Pune</h3>
+                    <address>
+                        Sawant Building, Flat No. 101,<br>
+                        Gokul Nagar, Dhanori,<br>
+                        Pune – 411015, Maharashtra, India
+                    </address>
+                    <div class="location-actions">
+                        <a class="map-link"
+                           href="https://www.google.com/maps/search/?api=1&query=Sunteck%20Medical%2C%20Sawant%20Building%2C%20Gokul%20Nagar%2C%20Dhanori%2C%20Pune%20411015"
+                           target="_blank" rel="noopener">
+                            <i class="fas fa-map-location-dot"></i> Get Directions
+                        </a>
+                        <a class="call-link" href="tel:+918874618130">
+                            <i class="fas fa-phone-alt"></i> Call Branch
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Thane -->
+                <div class="location-card fade-in">
+                    <span class="city"><i class="fas fa-location-dot"></i> Thane Branch</span>
+                    <h3>Sunteck Medical — Thane West</h3>
+                    <address>
+                        Rambagh Upvan, Pokhran Road No. 1,<br>
+                        Thane West – 400606,<br>
+                        Maharashtra, India<br>
+                        <strong>Plus Code:</strong> 6X92+5J6 Thane, Maharashtra
+                    </address>
+                    <div class="location-actions">
+                        <a class="map-link"
+                           href="https://www.google.com/maps/search/?api=1&query=6X92%2B5J6%20Thane%2C%20Maharashtra"
+                           target="_blank" rel="noopener">
+                            <i class="fas fa-map-location-dot"></i> Get Directions
+                        </a>
+                        <a class="call-link" href="tel:+918874618130">
+                            <i class="fas fa-phone-alt"></i> Call Branch
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GST / Business details -->
+            <div class="gst-box fade-in">
+                <div class="gst-item">
+                    <div class="k">Trade Name</div>
+                    <div class="v">SUNTECK MEDICAL</div>
+                </div>
+                <div class="gst-item">
+                    <div class="k">Legal Name</div>
+                    <div class="v">INDRA BAHADUR</div>
+                </div>
+                <div class="gst-item">
+                    <div class="k">GSTIN</div>
+                    <div class="v">27BMGPB9547Q1ZB</div>
+                </div>
+                <div class="gst-item">
+                    <div class="k">Contact</div>
+                    <div class="v"><a href="tel:+918874618130" style="color:inherit;text-decoration:none;">+91 88746 18130</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         CTA / CONTACT BANNER
+         ============================================ -->
+    <section class="cta-banner" id="contact">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Need Respiratory Equipment or Sleep Study?</h2>
+                <p>
+                    Get in touch with us today for rental, sales, and sleep test enquiries. We 
+                    provide doorstep delivery and installation in Pune, Thane and nearby areas.
+                </p>
+                <div class="cta-contact">
+                    <a href="tel:+918874618130" class="cta-phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <div class="phone-text">
+                            <span class="label">Call for Enquiry</span>
+                            <span class="number">+91 88746 18130</span>
+                        </div>
+                    </a>
+                    <a href="https://wa.me/918874618130" target="_blank" rel="noopener" class="cta-phone">
+                        <i class="fab fa-whatsapp"></i>
+                        <div class="phone-text">
+                            <span class="label">WhatsApp</span>
+                            <span class="number">Chat with Us</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cta-name">
+                <div class="person">Arvind Kumar</div>
+                <div class="role">Sunteck Medical</div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+         ENQUIRY FORM + FAQ
+         ============================================ -->
+    <section class="enquiry-faq" id="enquiry">
+        <div class="container">
+            <div class="panel fade-in">
+                <h2>Send an Enquiry</h2>
+                <p>Fill in the details and we will receive them directly on WhatsApp.</p>
+                <form class="enq-form" id="enqForm" novalidate>
+                    <label for="enqName">Your Name</label>
+                    <input type="text" id="enqName" placeholder="Full name" autocomplete="name">
+                    <div class="err">Please enter your name.</div>
+
+                    <label for="enqPhone">Phone Number</label>
+                    <input type="tel" id="enqPhone" placeholder="10-digit mobile number" inputmode="numeric" autocomplete="tel">
+                    <div class="err">Enter a valid 10-digit mobile number.</div>
+
+                    <label for="enqProduct">Equipment / Service Needed</label>
+                    <select id="enqProduct">
+                        <option>CPAP Machine</option>
+                        <option>BiPAP Machine</option>
+                        <option>Oxygen Concentrator</option>
+                        <option>Ventilator</option>
+                        <option>Sleep Study Test (Polysomnography)</option>
+                        <option>Sleep Study Device (Sales/Service)</option>
+                        <option>Other / Not sure</option>
+                    </select>
+
+                    <label for="enqType">I want to</label>
+                    <select id="enqType">
+                        <option>Take on rent</option>
+                        <option>Buy</option>
+                        <option>Book a Sleep Study Test</option>
+                        <option>Service / Repair</option>
+                    </select>
+
+                    <label for="enqCity">City</label>
+                    <input type="text" id="enqCity" placeholder="Delivery city (Pune / Thane / other)">
+                    <div class="err"></div>
+
+                    <label for="enqMsg">Message (optional)</label>
+                    <textarea id="enqMsg" placeholder="Duration, pressure settings, any other details"></textarea>
+
+                    <button type="submit" class="enq-submit"><i class="fab fa-whatsapp"></i> Send on WhatsApp</button>
+                </form>
+            </div>
+
+            <div class="panel fade-in" id="faq">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions.</p>
+                <details class="faq-item"><summary>Can I rent a machine instead of buying?</summary><p>Yes. We offer CPAP, BiPAP and oxygen concentrators on rent as well as for sale. Call or WhatsApp us on +91 88746 18130 for current rental terms.</p></details>
+                <details class="faq-item"><summary>Do you provide Sleep Study Tests?</summary><p>Yes, we provide comprehensive sleep study tests (Polysomnography) and Home Sleep Apnea Testing (HSAT). We also sell and service sleep study devices. Contact us for booking and pricing.</p></details>
+                <details class="faq-item"><summary>Do you deliver and install at home?</summary><p>We provide doorstep delivery and installation across Pune, Thane and nearby areas. Share your city in the enquiry and we will confirm availability.</p></details>
+                <details class="faq-item"><summary>Where are your branches located?</summary><p>We have two branches — Dhanori, Pune (411015) and Thane West (400606). You can visit either branch or ask for home delivery.</p></details>
+                <details class="faq-item"><summary>Do I need a prescription?</summary><p>Settings for CPAP, BiPAP and ventilators should be decided by your doctor. Please keep your doctor's advice handy when you enquire.</p></details>
+                <details class="faq-item"><summary>Which machine is right for me?</summary><p>It depends on your condition and your doctor's recommendation. Tell us your requirement and we will help you choose among the available options.</p></details>
+                <details class="faq-item"><summary>How quickly can I get a response?</summary><p>Call +91 88746 18130 or message us on WhatsApp and our team will get back to you.</p></details>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo-area">
+                        <div class="logo-icon">
+                            <i class="fas fa-lungs"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="brand">SUNTECK MEDICAL</span>
+                            <span class="sub">Respiratory Care</span>
+                        </div>
+                    </div>
+                    <p>
+                        Your trusted partner for CPAP, BiPAP, Oxygen Concentrator, Sleep Study 
+                        Test and Ventilator rental and sales. We are committed to providing 
+                        quality respiratory care products and exceptional service across Pune, 
+                        Thane and India.
+                    </p>
+                </div>
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Services</a></li>
+                        <li><a href="#sleep-study"><i class="fas fa-chevron-right"></i> Sleep Study</a></li>
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
+                        <li><a href="#benefits"><i class="fas fa-chevron-right"></i> Benefits</a></li>
+                        <li><a href="#locations"><i class="fas fa-chevron-right"></i> Locations</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Products & Services</h4>
+                    <ul>
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> CPAP Machines</a></li>
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> BiPAP Machines</a></li>
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Oxygen Concentrators</a></li>
+                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Ventilators</a></li>
+                        <li><a href="#sleep-study"><i class="fas fa-chevron-right"></i> Sleep Study Test</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>
+                            <a href="tel:+918874618130">
+                                <i class="fas fa-phone"></i> +91 88746 18130
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/918874618130" target="_blank" rel="noopener">
+                                <i class="fab fa-whatsapp"></i> WhatsApp Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:sunteckmedical@Gmail.com">
+                                <i class="fas fa-envelope"></i> sunteckmedical@Gmail.com
+                            </a>
+                        </li>
+                        <li>
+                            <span class="addr">
+                                <i class="fas fa-location-dot"></i>
+                                Sawant Building, Flat No. 101, Gokul Nagar, Dhanori, Pune – 411015
+                            </span>
+                        </li>
+                        <li>
+                            <span class="addr">
+                                <i class="fas fa-location-dot"></i>
+                                Rambagh Upvan, Pokhran Road No. 1, Thane West – 400606 (Plus Code: 6X92+5J6 Thane, Maharashtra)
+                            </span>
+                        </li>
+                        <li>
+                            <span class="addr">
+                                <i class="fas fa-user"></i> Arvind Kumar (Sunteck Medical)
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="tags">
+                    <span>CPAP</span>
+                    <span>|</span>
+                    <span>BiPAP</span>
+                    <span>|</span>
+                    <span>Oxygen Concentrators</span>
+                    <span>|</span>
+                    <span>Ventilators</span>
+                    <span>|</span>
+                    <span>Sleep Study Test</span>
+                    <span>|</span>
+                    <span>All Respiratory Products at Retail</span>
+                </div>
+                <div class="legal">
+                    GSTIN: 27BMGPB9547Q1ZB &nbsp;•&nbsp; Legal Name: INDRA BAHADUR &nbsp;•&nbsp; Trade Name: SUNTECK MEDICAL<br>
+                    &copy; 2026 Sunteck Medical. All rights reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Floating call + WhatsApp buttons -->
+    <div class="float-actions">
+        <a href="tel:+918874618130" class="fa-call" aria-label="Call us"><i class="fas fa-phone-alt"></i></a>
+        <a href="https://wa.me/918874618130" target="_blank" rel="noopener" class="fa-wa" aria-label="WhatsApp us"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+    <!-- ============================================
+         SCRIPTS
+         ============================================ -->
+    <script>
+        /* ---------- 1. IMAGE FALLBACK ---------- */
+        function applyImgFallback(img) {
+            const label = (img.alt || 'Product').toUpperCase();
+            const svg = `
+            <svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+                <rect width="400" height="300" fill="#eef4fb"/>
+                <rect x="120" y="80" width="160" height="120" rx="14" fill="#d6e4f5" stroke="#0b3c7c" stroke-width="3"/>
+                <rect x="148" y="105" width="70" height="45" rx="6" fill="#0b3c7c" opacity="0.75"/>
+                <circle cx="245" cy="175" r="12" fill="#d32f2f"/>
+                <text x="200" y="240" font-size="18" font-weight="700" text-anchor="middle"
+                      fill="#0b3c7c" font-family="Arial, sans-serif">${label}</text>
+            </svg>`;
+            img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg);
+        }
+
+        document.querySelectorAll('img').forEach(img => {
+            if (img.complete && img.naturalWidth === 0) {
+                applyImgFallback(img);
+            } else {
+                img.addEventListener('error', () => applyImgFallback(img));
+            }
+        });
+
+        /* ---------- 2. MOBILE MENU ---------- */
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            } else {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            }
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = mobileToggle.querySelector('i');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+
+        /* ---------- 3. SCROLL FADE-IN ---------- */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+
+        /* ---------- 4. SMOOTH SCROLL ---------- */
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        /* ---------- 5. ENQUIRY FORM -> WHATSAPP ---------- */
+        document.getElementById('enqForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+            const name = document.getElementById('enqName');
+            const phone = document.getElementById('enqPhone');
+            const nameOk = name.value.trim().length > 1;
+            const digits = phone.value.replace(/\D/g, '').replace(/^91(?=\d{10}$)/, '');
+            const phoneOk = /^[6-9]\d{9}$/.test(digits);
+            name.classList.toggle('invalid', !nameOk);
+            phone.classList.toggle('invalid', !phoneOk);
+            if (!nameOk || !phoneOk) return;
+            const v = id => document.getElementById(id).value.trim();
+            const lines = [
+                'Hello Sunteck Medical, I would like to enquire.',
+                'Name: ' + name.value.trim(),
+                'Phone: ' + digits,
+                'Equipment/Service: ' + v('enqProduct'),
+                'Requirement: ' + v('enqType'),
+                v('enqCity') ? 'City: ' + v('enqCity') : '',
+                v('enqMsg') ? 'Message: ' + v('enqMsg') : ''
+            ].filter(Boolean);
+            window.open('https://wa.me/918874618130?text=' + encodeURIComponent(lines.join('\n')), '_blank', 'noopener');
+        });
+    </script>
+
+</body>
+</html>
